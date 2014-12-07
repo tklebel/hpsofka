@@ -126,7 +126,7 @@
 		{
 			font-size: 2.5em;
 			margin: 0 0.25em 0 0.25em;
-			opacity: 0.35;
+			opacity: 0.7;
 			outline: 0;
 			-moz-transition: opacity .25s ease-in-out;
 			-webkit-transition: opacity .25s ease-in-out;
@@ -225,6 +225,7 @@
 		box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.25);
 	}
 
+
 	.panel
 	{
 		padding: 3.5em 2.5em 3.5em 2.5em;
@@ -233,9 +234,29 @@
 		left: 0;
 		width: 45em;
 	}
+	.panel.main
+	{
+		padding: 2em 1.5em 2em 1.5em;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 45em;
+	}
 	
 	/* Me */
-	
+
+	/* versuch den Gradienten einzubauen*/
+
+	#grad {
+		height: 400px;
+/*		background-image: url('images/sofka6.jpg'), -webkit-linear-gradient(right, rgba(235,230,208,0), rgba(235,230,208,1));
+		background-image: url('images/sofka6.jpg'), -o-linear-gradient(right, rgba(235,230,208,0), rgba(235,230,208,1));
+		background-image: url('images/sofka6.jpg'), -moz-linear-gradient(right, rgba(235,230,208,0), rgba(235,230,208,1));
+*/		background-image: linear-gradient(to right, rgba(235,230,208,0) 33%, rgba(235,230,208,1) 80%), url('../images/main1.jpg');
+		background-size: cover, auto 100%;
+		background-repeat: no-repeat;
+	}
+	/*
 		#me
 		{
 			padding: 0;
@@ -300,7 +321,35 @@
 						width: 3em;
 						padding-right: 0.25em;
 					}
-			
+			*/
+
+
+	#unterschrift
+	{
+		position: absolute;
+		right: 2.2em;
+		top: 33%;
+		max-width: 42%;
+		max-height: 25%;
+	}
+
+
+	#me h1
+	{
+		position: absolute;
+		right: 17%;
+		bottom: 29%;
+		font-size: 1.5em;
+	}
+
+	#me h2
+	{
+		position: absolute;
+		right: 26%;
+		bottom: 35%;
+		font-size: 1.2em;
+	}
+
 			#me header
 			{
 				position: absolute;
