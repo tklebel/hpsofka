@@ -14,11 +14,20 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	body
+/*	body
 	{
 		background-image:			url('images/overlay3.1.png'),		url('images/bg5.jpg');
 		background-repeat:			repeat,								no-repeat;
 		background-size:			20% 20%,							100% 100%;
+	}*/
+
+/* neuer background */
+	body
+	{
+		background-image:			url('images/bg_noemi1.jpg');
+		background-repeat:			no-repeat;
+		background-position: 		75% 75%;
+		background-size:			cover;
 	}
 
 		body.is-loading *
@@ -57,11 +66,19 @@
 		color: #000000;
 	}*/
 
-	h1, h2, h3, h4, h5, h6
+
+	h1
+	{
+		font-family: 'Lovers Quarrel';
+		color: #CC0001;
+	}
+
+	h2, h3, h4, h5, h6
 	{
 		font-weight: 400;
 		color: #363636;
 	}
+
 
 	
 	
@@ -446,7 +463,7 @@
 
 	/* Me */
 	
-		#me
+/*		#me
 		{
 		}
 		
@@ -466,7 +483,7 @@
 					width: 100%;
 					height: 100%;
 					z-index: 1;
-				}
+				}*/
 
 /*********************************************************************************/
 /* Footer                                                                        */
