@@ -31,7 +31,7 @@
 	
 	h1
 	{
-		font-size: 2.4em;
+		font-size: 5.4em;
 		letter-spacing: -0.015em;
 	}
 
@@ -333,22 +333,16 @@
 		max-height: 25%;
 	}
 
-
-	#me h1
+	#baroqueViolinist
 	{
 		position: absolute;
-		right: 17%;
-		bottom: 29%;
-		font-size: 1.5em;
+		right: 3.8em;
+		top: 57%;
+		max-width: 32%;
+		max-height: 37%;
 	}
 
-	#me h2
-	{
-		position: absolute;
-		right: 26%;
-		bottom: 35%;
-		font-size: 1.2em;
-	}
+	
 
 			#me header
 			{
