@@ -20,6 +20,12 @@ rgb(235,230,208)
 }
 
 
+# Schrift:
+
+Lovers Quarrel
+@import url(http://fonts.googleapis.com/css?family=Lovers+Quarrel);
+font-family: 'Lovers Quarrel', cursive;
+
 
 ##########
 # Issues #
@@ -28,3 +34,7 @@ rgb(235,230,208)
 - make picture on mainpage transparent on the right side DONE
 - correct gradient for webkits
 - when screen is too big (especially to high), picture on mainpage gehts to small - gap between gradient and picture
+- you shouldnt be able to scroll on the mainpage
+- when safari is not on full height, the top gets cut off -> fix it. the same with other browsers?
+
+- mobile version broken. needs new design
