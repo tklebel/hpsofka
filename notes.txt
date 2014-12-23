@@ -10,6 +10,7 @@ rgb(204,0,1)
 rgb(235,230,208)
 
 
+
 # basis for gradient
 #grad1 {
     height: 200px;
@@ -19,6 +20,7 @@ rgb(235,230,208)
     background: -moz-linear-gradient(right, rgba(235,230,208,0), rgba(235,230,208,1)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, rgba(235,230,208,0), rgba(235,230,208,1)); /* Standard syntax (must be last) */
 }
+
 
 
 # font:
