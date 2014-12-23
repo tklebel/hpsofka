@@ -1,0 +1,41 @@
+# notes
+
+color for read handwriting on titelpage:
+#CC0001
+rgb(204,0,1)
+
+####
+# color for gradient:
+#EBE6D0
+rgb(235,230,208)
+
+
+# basis for gradient
+#grad1 {
+    height: 200px;
+    width: 300px;
+    background: -webkit-linear-gradient(right, rgba(235,230,208,0), rgba(235,230,208,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(235,230,208,0), rgba(235,230,208,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(235,230,208,0), rgba(235,230,208,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(235,230,208,0), rgba(235,230,208,1)); /* Standard syntax (must be last) */
+}
+
+
+# font:
+Lovers Quarrel
+@import url(http://fonts.googleapis.com/css?family=Lovers+Quarrel);
+font-family: 'Lovers Quarrel', cursive;
+
+
+##########
+# Issues #
+##########
+
+- make picture on mainpage transparent on the right side DONE
+- correct gradient for webkits
+- when screen is too big (especially to high), picture on mainpage gehts to small - gap between gradient and picture
+- you shouldnt be able to scroll on the mainpage
+- when safari is not on full height, the top gets cut off -> fix it. the same with other browsers?
+- on iPad obviously no javascript -> on long pages (biography) background images gets blown up, as it compensates the height of the page -> maybe there is a way around it
+
+- mobile version broken. needs new design
